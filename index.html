@@ -7,29 +7,32 @@
   </head>
   <body>
     <div class="container">
-      <input type="text">
+      <input type="text" id="screen">
       <div class="pinpad">
-        <p class="left erase">CLEAR</p>
-        <p class="erase">DEL</p>
-        <p class="operators">+/-</p>
-        <p class="operators">/</p>
-        <p class="left">7</p>
-        <p>8</p>
-        <p>9</p>
-        <p class="operators">x</p>
-        <p class="left">4</p>
-        <p>5</p>
-        <p>6</p>
-        <p class="operators">-</p>
-        <p class="left">1</p>
-        <p>2</p>
-        <p>3</p>
-        <p class="operators">+</p>
-        <p class="zero left">0</p>
-        <p class="period">.</p>
-        <p class="right equal">=</p>
+        <button class="left erase clear" name="clear" type="button" value="" id="clear">CLEAR</button>
+        <button class="erase delete" name="delete" type="button" value="" id="del">DEL</button>
+        <button class="operators" name="1" type="button" value="1" id="">+/-</button>
+        <button class="operators" name="divide" type="button" value="/" id="/">/</button>
+        <button class="left num" name="7" type="button" value="7" id="7">7</button>
+        <button class="num" name="8" type="button" value="8" id="8">8</button>
+        <button class="num" name="9" type="button" value="9" id="9">9</button>
+        <button class="operators" name="mult" type="button" value="x" id="x">x</button>
+        <button class="left num" name="4" type="button" value="4" id="4">4</button>
+        <button class="num" name="5" type="button" value="5" id="5">5</button>
+        <button class="num" name="6" type="button" value="6" id="6">6</button>
+        <button class="operators" name="minus" type="button" value="-" id="-">-</button>
+        <button class="left num" name="1" type="button" value="1" id="1">1</button>
+        <button class="num" name="2" type="button" value="2" id="2">2</button>
+        <button class="num" name="3" type="button" value="3" id="3">3</button>
+        <button class="operators" name="plus" type="button" value="+" id="+">+</button>
+        <button class="zero left" name="0" type="button" value="0" id="0">0</button>
+        <button class="period" name="period" type="button" value="." id=".">.</button>
+        <button class="right equal" name="equal" type="button" value="=" id="=">=</button>
       </div>
-
     </div>
+    <script type="text/javascript" src="calculator.js"></script>
   </body>
 </html>
+
+<!-- think about expanding the equal sign and then move the operators and get rid
+of the +/- sign -->
